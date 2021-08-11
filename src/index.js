@@ -18,12 +18,29 @@ document.getElementById("app").innerHTML = `
 IDENTIFICADORES, VARIABLES Y TIPOS DE DATOS
  */
 //1. Escribir comentarios de 2 formas
-
-//2. Definir una variable, de 2 formas y definir una constante
+//holla
+/*hola
+Abad Beniz Sossa
+ munod
+ 1
+*/
+//2. Definir una variable, de 2 formas y definir una constante Alejandro Chile
+var x = 1;
+let y = "hola";
+const z = 2;
+y = 2;
 
 //3. Mostrar en consola y definir un arreglo de 2 formas
+//Fidel Moises Aldana Mejia
+var a = new Array();
+var b = [2, 3, 4, 5, "abc"];
+console.log(a);
+console.log(b);
 
 //4. Mostrar en consola y definir objetos de 3 formas
+var obj = new Object();
+var obj2 = { nombre: "pepe", edad: 20 };
+var obj3 = { "123": a }; // luis Rueda
 
 //5. Mostrar en consola y definir cadenas de 2 formas
 
