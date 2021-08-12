@@ -1,4 +1,9 @@
 import "./styles.css";
+import { User, diego, daniel } from "./objetos.js";
+
+var e = new User();
+diego.desdeAfuera();
+daniel.desdeDentro();
 
 document.getElementById("app").innerHTML = `
 <h1>Hello Vanilla!</h1>
@@ -43,28 +48,74 @@ var obj2 = { nombre: "pepe", edad: 20 };
 var obj3 = { "123": a }; // luis Rueda
 
 //5. Mostrar en consola y definir cadenas de 2 formas
+//Jacqueline Guerrero Quiroga
+var cadena = "Hola Mundo";
 
-//6. Mostrar en consola y definir cadenas en multiples lineas de
+console.log(cadena);
 
+var cad = String("Hola");
+console.log(cad);
+//6. Mostrar en consola y definir cadenas en multiples
+//lineas de Mauricio Aramayo/ Erlan Mendoza
+var x =
+  "hola mundooooooooooooooooo" + "oooooooooooooooooooooooooooooooooooooooooo ";
+console.log(x);
+var a = `ssssssssssssssssss
+ssssssssss;`;
+console.log(a);
+var cadena2 = "sssssssssssssssssssssss\
+sssss";
+console.log(cadena2);
 //7. Mostrar en consola y definir una cadena con caracteres especiales \,',"
-
+//Joan Saravia
+//Kevin Acosta
+var cadena = '"hola"';
+var cadenaescape1 = " \\ Escape";
+var cadenaescape2 = " 'esto es una comilla simple'";
+console.log(cadena);
+console.log(cadenaescape1);
+console.log(cadenaescape2);
 //8. Declarar dos variables con los nombres [minombre] es igual a [Minombre] con
 // valores de numeros diferentes y mostrar en consola la siguiente expresion
 // [minombre]==[minombre]
+//Brenda Flores Aleluya
+var minombre = 1;
+var Minombre = 8;
+console.log(minombre === Minombre);
 
 //9. Mostrar en consola un texto de Cierto o Falso si el nombre de una variable
-//puede comenzar con un numero
+//puede comenzar con un numero Alexandro Gorena
+
+//var 1asd=23;
+console.log(
+  "nose puede definir una variable con un nombre que comience con un numero"
+);
 
 //10. Mostrar en consola y definir el valor de una variable del tipo entero
-
+//bryan villegas
+var numero = 5;
+console.log(numero);
 //11. Mostrar en consola y definir el valor de una variable del tipo double y un
 //numero double menor a 1
+//Juan Jose Torrico S.
+var double = 0.5;
+var double2 = 10.45;
+var double3 = 100.0;
+console.log("Valor tipo Double  menor a uno: " + double);
+console.log("Valor tipo Double  mayor a uno: " + double2);
+console.log("valor de un double " + double3);
 
 //12. Mostrar en consola y definir el valor de una variable numero con el formato de
 //exponente base 10
-
+//Royer Mendez Tarifa
+var valor = Math.pow(10);
+var valorExponente = 34.1234e3; //34123.4
+console.log(valor);
+console.log(valorExponente);
 //13. Monstrar en consola y definir un numero BigInt
-
+//marco silva
+var num = 20n;
+console.log(num.toString());
 //14. Mostrar en consola y definir dos variable booleanas con los posibles valores
 //booleanos
 
