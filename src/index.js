@@ -108,10 +108,9 @@ console.log("valor de un double " + double3);
 //12. Mostrar en consola y definir el valor de una variable numero con el formato de
 //exponente base 10
 //Royer Mendez Tarifa
-var valor = Math.pow(10);
-var valorExponente = 34.1234e3; //34123.4
-console.log(valor);
-console.log(valorExponente);
+var valor = Math.pow(3, 10); //3^10
+var valorNotacionCientifica = 34.1234e3; //34123.4
+console.log(valorNotacionCientifica);
 //13. Monstrar en consola y definir un numero BigInt
 //marco silva
 var num = 20n;
