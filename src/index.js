@@ -112,7 +112,7 @@ var valor = Math.pow(3, 10); //3^10
 var valorNotacionCientifica = 34.1234e3; //34123.4
 console.log(valorNotacionCientifica);
 //13. Monstrar en consola y definir un numero BigInt
-//marco silva
+// marco silva
 var num = 20n;
 console.log(num.toString());
 //14. Mostrar en consola y definir dos variable booleanas con los posibles valores
@@ -120,7 +120,7 @@ console.log(num.toString());
 // Jhon Rodrigo Acuña
 
 //15. Mostrar en consola y declarar una variable con valor indefinido
-// Oscar Aguilar
+// Ivan Figueroa
 
 //16. Mostrar en consola y declarar una variable con valor nulo
 // Mauricio Aramayo
@@ -147,18 +147,19 @@ console.log(num.toString());
 //en consola el contenido del arreglo y luego que quite el ultimo elemento de la
 //lista, luego que quite el elemento en el indice 2 y finalmente muestre en
 //consola el arreglo resultante
-// Ivan Figueroa
+// Oscar Aguilar
 
 /*
 OPERADORES ARITMETICOS Y LOGICOS
  */
+
 //22. Mostrar en consola y declarar una funcion que calcule la potencia de una base
 //y un exponente
-//Renato Francachs
+// Renato Francachs
 
 //23. Mostrar en consola y declarar una funcion que calcule si un numero es par o
 //impar
-//Manuel Jimenez
+// Manuel Jimenez
 
 //24. Mostrar en consola y declarar una funcion con 3 parametros de distinto tipo
 // que devuelva la concatenación de esos parametros, de 2 formas posibles
@@ -166,9 +167,11 @@ OPERADORES ARITMETICOS Y LOGICOS
 
 //25. Mostrar en consola y declarar el resultado de una operacion ternaria
 // Marisol Mendieta
+
 /*
 SENTENCIAS SELECTIVAS Y REPETITIVAS
 */
+
 //26. Mostrar en consola y declarar el resultado de una sentencia selectiva
 //de 2 formas posibles
 // Robert Miranda
