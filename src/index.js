@@ -118,23 +118,36 @@ console.log(num.toString());
 //14. Mostrar en consola y definir dos variable booleanas con los posibles valores
 //booleanos
 // Jhon Rodrigo Acuña
-
+var p1 = true;
+var p2 = false;
+console.log(p1);
+console.log(p2);
 //15. Mostrar en consola y declarar una variable con valor indefinido
 // Ivan Figueroa
-
+var miVariable;
+console.log(miVariable);
 //16. Mostrar en consola y declarar una variable con valor nulo
 // Mauricio Aramayo
-
+var valorNulo = null;
+console.log(valorNulo);
 //17. Declarar una funcion llamarA[Apellido] que devuelva [Apellido]
 //  Carlos Arce
 
 //18. Declarar una variable con referencia a la funcion definida
 //anteriormente (ejercicio 17)  y mostrar en consola la ejecucion de esa variable
 // Sergio Barrios
+var suma = function (numero1, numero2) {
+  return numero1 + numero2;
+};
+console.log(suma);
+console.log(suma(12, 3));
 
 //19. Declarar una variable con la fecha de hoy, agregar 30 dias a la fecha y
 //mostrar en consola el resultado
 // Jose Campero
+var fec = new Date(2021, 8, 12);
+fec.setDate(fec.getDate() + 30);
+console.log(fec);
 
 //20. Declarar una funcion probarArgumentos(argumentos) que utilice el objeto
 //arguments de la función para mostrar en consola todos los valores de argumentos
